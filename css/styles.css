@@ -1,0 +1,80 @@
+body {
+    background-color: #A64949;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+   }
+.container{
+  background-color: #F5F5F5;
+  height: 584px;
+  width: 598px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 4rem;
+  overflow: hidden;
+  position: relative;
+}
+.pantalla{
+ padding-top: 1rem;
+ 
+}
+.pantalla input{
+  color: #333333;
+  width: 598px;
+  height: 165px;
+  font-size: 60px;
+  outline: none;
+  border-radius: 0%;
+  text-align: right;
+}
+.pantalla input::placeholder{
+  font-size: 60px;
+  font-weight: 500;
+  color: #193C40;
+  text-transform: capitalize;
+}
+.teclado{
+  width: 598px;
+  height: 200px;
+  
+}
+.teclado button{
+  cursor: pointer;
+  font-size: 55px;
+  background-color:  #D9D9D9;
+  color: #333333;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5px;
+  margin-left: 2rem;
+  border-radius: 90px;
+  width: 100px;
+  
+  
+}
+.teclado button:hover{
+  color: #FEFEFEFE;
+  background: #262626;
+}
+.teclado .eq{
+  background-color: #F24405;
+  padding-left: 20%;
+  padding-right: 25%;
+}
+.teclado .sim{
+  background-color: #F24405;
+  width: 150px;
+}
+.teclado .del{
+  background-color: #BF0404;
+  width: 150px;
+}
+.flec{
+    font-size: larger;
+    border-radius: 10px;
+}
