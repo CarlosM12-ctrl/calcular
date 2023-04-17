@@ -1,5 +1,5 @@
 body {
-    background-color: #A64949;
+    background-color: #172026;
   }
 *{
     margin: 0;
@@ -13,7 +13,7 @@ body {
   background-color: #F5F5F5;
   height: 584px;
   width: 598px;
-  margin-left: 1rem;
+  margin-left: 26rem;
   margin-top: 1rem;
   border-radius: 4rem;
   overflow: hidden;
@@ -66,13 +66,13 @@ body {
   padding-left: 20%;
   padding-right: 25%;
 }
-.teclado .sim{
+.teclado .sum{
   background-color: #F24405;
   width: 150px;
 }
 .teclado .del{
   background-color: #BF0404;
-  width: 150px;
+  width: 100px;
 }
 .flec{
     font-size: larger;

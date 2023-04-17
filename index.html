@@ -16,35 +16,41 @@
     <div class="container">
         <div class="pantalla">
             
-            <input type="text" placeholder="0" class="text">
+            <input type="text" id="resultado" readonly class="text">
               
         </div>
         <div class="teclado">
+            <button id="bntRaiz"  onclick="calcularRaiz()">√</button>
+            <button id="bntPorcen"  onclick="operar('%')">%</button>
+            <button id="btnBorrar" class="del" onclick="borrar()">C</button>
+            <button id="btnDivision"  class="sum" onclick="operar('/')">/</button>
             
-            <button class="/ base5">/</button>
-            <button class="% base5 ">%</button>
-            <button class="c base1">C</button>
-            <button class="bi bi-arrow-left flec del"></button>
+            
             <br>
-            <button class="7 ">7</button>
-            <button class="8 ">8</button>
-            <button class="9 ">9</button>
-            <button class="*   sim">*</button>
-            <br>
-            <button class="4">4</button>
-            <button class="5">5</button>
-            <button class="6">6</button>
-            <button class="- sim">-</button>
-            <br>
-            <button class="1 ">1</button>
-            <button class="2 ">2</button>
-            <button class="3 ">3</button>
-            <button class="+  sim">+</button>
+            <button id="btn7" onclick="agregarNumero('7')">7</button>
+            <button id="btn8" onclick="agregarNumero('8')">8</button>
+            <button id="btn9" onclick="agregarNumero('9')">9</button>
+            <button id="btnMultiplicacion"  class="sum" onclick="operar('*')">*</button>
             <br>
             
-            <button class="0 base1">0</button>
-            <button class=". base1">.</button>
-            <button class="= eq">=</button>
+            <button id="btn4" onclick="agregarNumero('4')">4</button>
+            <button id="btn5" onclick="agregarNumero('5')">5</button>
+            <button id="btn6" onclick="agregarNumero('6')">6</button>
+            <button id="btnResta"  class="sum" onclick="operar('-')">-</button>
+            <br>
+            <button id="btn1" onclick="agregarNumero('1')">1</button>
+            <button id="btn2" onclick="agregarNumero('2')">2</button>
+            <button id="btn3" onclick="agregarNumero('3')">3</button>
+            <button id="btnSuma" class="sum" onclick="operar('+')">+</button>
+            <br>
+            
+           
+            <button id="btn0" onclick="agregarNumero('0')">0</button>
+            <button id="btnPunto" onclick="agregarNumero('.')">.</button>
+            <button id="btnIgual" class="eq" onclick="calcular()">=</button>
+        </div>
+        <div class="opciones">
+            
         </div>
     </div>
     <!--SCRIPTS-->
